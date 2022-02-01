@@ -4,12 +4,12 @@ import Dictionary from "./Dictionary";
 export default function App() {
   return (
     <div className="App">
-      <div className="container">
+      <div className="container text-center">
         <header className="App-header">Search engine</header>
         <main>
           <Dictionary />
         </main>
-        <footer className="text-center">Coded by Isabella Macht</footer>
+        <footer>Coded by Isabella Macht</footer>
       </div>
     </div>
   );

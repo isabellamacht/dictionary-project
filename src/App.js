@@ -12,9 +12,7 @@ export default function App() {
         <footer>
           <p className="Footer">
             Coded by{" "}
-            <a href="https://github.com/isabellamacht" target="_blank">
-              Isabella Macht
-            </a>{" "}
+            <a href="https://github.com/isabellamacht">Isabella Macht</a>{" "}
           </p>
         </footer>
       </div>

@@ -1,3 +1,36 @@
+:root {
+  --dark-orange-color: #e6a97e;
+  --text-color: #e2bea8;
+}
+
+.App {
+  background-color: #fefdf8;
+  color: var(--text-color);
+}
+.Dictionary {
+  max-width: 800px;
+  margin: 30px auto;
+}
 .Results {
   text-align: left;
+}
+.btn {
+  color: var(--dark-orange-color);
+  background-color: #ffead9;
+  transition: all 200ms ease-in-out;
+}
+.btn:hover {
+  background-color: var(--dark-orange-color);
+  color: #ffead9;
+  transition: all 200ms ease-in-out;
+}
+h2,
+a:hover {
+  color: var(--dark-orange-color);
+}
+footer {
+  font-size: 12px;
+}
+a {
+  color: var(--text-color);
 }

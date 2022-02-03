@@ -9,7 +9,14 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer>Coded by Isabella Macht</footer>
+        <footer>
+          <p className="Footer">
+            Coded by{" "}
+            <a href="https://github.com/isabellamacht" target="_blank">
+              Isabella Macht
+            </a>{" "}
+          </p>
+        </footer>
       </div>
     </div>
   );

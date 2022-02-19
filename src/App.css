@@ -2,7 +2,12 @@
   --dark-orange-color: #e6a97e;
   --text-color: #e2bea8;
 }
-
+body {
+  font-family: "Noto Serif", serif;
+}
+header {
+  color: var(--dark-orange-color);
+}
 .App {
   background-color: #fefdf8;
   color: var(--text-color);

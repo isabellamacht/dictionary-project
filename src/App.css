@@ -7,15 +7,33 @@ body {
 }
 header {
   color: var(--dark-orange-color);
+  padding: 15px;
+  font-size: 20px;
+}
+.Dictionary section {
+  background-color: white;
+  border: 3px solid rgba(226, 190, 168, 0);
+  border-radius: 15px;
+  box-shadow: 8px 10px 39px 15px rgba(230, 169, 126, 0.15);
+  max-width: 750px;
+  margin: 30px auto;
+}
+.Dictionary input {
+  color: var(--text-color);
+}
+.Dictionary .hints {
+  text-align: left;
+  padding-bottom: 15px;
+  font-size: 15px;
+}
+.Dictionary .hints span {
+  color: var(--dark-orange-color);
 }
 .App {
   background-color: #fefdf8;
   color: var(--text-color);
 }
-.Dictionary {
-  max-width: 800px;
-  margin: 30px auto;
-}
+
 .Results {
   text-align: left;
 }

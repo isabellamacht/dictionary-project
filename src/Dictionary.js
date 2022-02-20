@@ -43,7 +43,7 @@ export default function Dictionary(props) {
                 className="form-control rounded-pill"
                 type="search"
                 onChange={handleKeywordChange}
-                //placeholder="Sunset"
+                defaultValue={props.defaultKeyword}
               />
             </div>
             <div className="col-3">
